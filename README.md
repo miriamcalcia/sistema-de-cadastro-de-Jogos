@@ -7,4 +7,3 @@ Para rodar esse projeto em sua máquiva, por favor digite :
 ```
 node app.js
 ```
-:)
