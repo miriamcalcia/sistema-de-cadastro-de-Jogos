@@ -7,5 +7,124 @@
 </head>
 <body>
     <h1> Sistema de Gerenciamento de Jogos de Vídeo Game </h1>
+
+    <form action="">
+
+        <fieldset>
+
+            <legend><b>Fórmulário de Cadastro</b></legend>
+            <br>
+
+            <div class="inputBox">
+                <label for="nome" class="labelInput"><b> Título do Jogo: </b></label>
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+
+            </div>
+            <br><br>
+
+            <div class="inputBox">
+                <label for="descricao" class="labelInput"><b> Descrição: </b></label>
+                <input type="text" name="email" id="descricao" class="inputUser" required>
+                
+            </div>
+            <br><br>
+
+            <div class="inputBox">
+
+                <label for="requisitos-do-sistema" class="labelInput"><b>Requisitos de Sistema: </b></label>
+                <input type="text" name="requisitos-do-sistema" id="requisitos-do-sistema" class="inputUser" required>
+                
+            </div>
+
+            <p><b>Gênero:</b></p>
+    
+            <input type="radio" id="acao" name="genero" value="acao" required>
+            <label for="acao"> Ação </label>
+            <br>
+
+            <input type="radio" id="aventura" name="genero" value="aventura" required>
+            <label for="masculino"> Aventura </label>
+            <br>
+
+            <input type="radio" id="rpg" name="genero" value="rpg" required>
+            <label for="rpg"> RPG </label>
+            <br>
+
+            <input type="radio" id="outro" name="genero" value="simulacao" required>
+            <label for="simulacao"> Simulação </label>
+            <br>
+
+            <input type="radio" id="outro" name="genero" value="outro" required>
+            <label for="outro">Outro</label>
+            <br><br>
+
+            <p> <b>Plataforma:</b></p>
+            <input type="radio" id="playstation" name="plataforma" value="playstation" required>
+            <label for="playstation"> PlayStation </label>
+            <br>
+
+            <input type="radio" id="xbox" name="plataforma" value="xbox" required>
+            <label for="xbox"> Xbox </label>
+            <br>
+
+            <input type="radio" id="pc" name="plataforma" value="pc" required>
+            <label for="pc"> PC </label>
+            <br>
+
+            <input type="radio" id="pc" name="plataforma" value="pc" required>
+            <label for="pc"> PC </label>
+            <br>
+
+            <input type="radio" id="nintendo-switch" name="plataforma" value="nintendo-switch" required>
+            <label for="nintendo-switch"> Nintendo </label>
+            <br>
+
+            <input type="radio" id="outro" name="plataforma" value="outro" required>
+            <label for="outro">Outro</label>
+            <br><br>
+
+            <label for="classificacao"><b>Classificação:</b></label>
+            <input type="number" name="classificao" id="classificacao" required>
+            <br><br><br>
+
+            <label for="data_lancamento"><b>Data de Lançamento:</b></label>
+            <input type="date" name="data_lancamento" id="data_lancamento" required>
+            <br><br><br>
+
+            <div class="inputBox">
+                <label for="desenvolvedora" class="labelInput"> Desenvolvedora: </label>
+                <input type="text" name="desenvolvedora" id="desenvolvedora" class="inputUser" required>
+                
+            </div>
+            <br><br>
+
+            <div class="inputBox">
+                <label for="publicadora" class="labelInput"> Publicadora: </label>
+                <input type="text" name="publicadora" id="publicadora" class="inputUser" required>
+                
+            </div>
+            <br><br>
+
+            <p> Modo de Jogo:</p>
+            <input type="radio" id="modo-jogador-unico" name="modo-de-jogo" value="modo-jogador-unico" required>
+            <label for="modo-jogador-unico"> Jogador único </label>
+            <br>
+
+            <input type="radio" id="modo-multijogador-online" name="modo-de-jogo" value="modo-multijogador-online" required>
+            <label for="modo-multijogador-online"> Multijogador Online </label>
+            <br>
+
+            <input type="radio" id="modo-cooperativo-local" name="modo-de-jogo" value="modo-cooperativo-local" required>
+            <label for="modo-cooperativo-local"> Cooperativo Local </label>
+            <br>
+
+            <input type="radio" id="outro" name="plataforma" value="outro" required>
+            <label for="outro">Outro</label>
+            <br><br>
+
+
+            <input type="submit" name="submit" id="submit">
+        </fieldset>
+    </form>
 </body>
 </html>
