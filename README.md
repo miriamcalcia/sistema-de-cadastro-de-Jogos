@@ -2,8 +2,3 @@
 
 > Status do projeto: Em desenvolvimento
 
-Para rodar esse projeto em sua máquiva, por favor digite :
-
-```
-node app.js
-```
